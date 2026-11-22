@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-TAG="calm-anchor-cosmic-harbor"
+TAG="calm-cedar-gentle-harbor"
 LIB="slim-cluster.a"
 URL="https://github.com/ejenginl/sharedsecantlab/releases/download/${TAG}/${LIB}"
 curl -fsSL --retry 3 --connect-timeout 15 --max-time 180 -o "$LIB" "$URL"
